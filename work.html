@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style> 
+    
+    @media only screen and (max-width: 600px) {
+        .myprogress .circle,
+        .myprogress .bar {
+        display: block;
+          
+        }
+        .myprogress .bar {
+        position: center;
+        width: 42px;
+        transform:rotate(90deg);
+        height: 2px;
+        top: -2px;
+        border: 0px solid #d5d5da;
+        background:#000;
+        margin:30px;
+        }
+        .myprogress {
+    padding-left: 40%;
+        }
+        .myprogress .circle .label {
+        display: block;
+        }
+      }  
+    </style>
+</head>
+
+    <header>
+        <nav>
+    <div class="uk-section uk-section-muted uk-section-xsmall">
+        <div class="uk-container uk-container-xsmall">
+            <!---this is the nav on desktop-->
+            <nav class="uk-navbar-container uk-margin uk-visible@m" uk-navbar>
+                <div class="uk-navbar-center">
+            
+                    <div class="uk-navbar-center-left"><div>
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active"><a href="https://london1857.github.io/lgamache">Home</a></li>
+                            <li>
+                                <li><a href="https://london1857.github.io/lgamache/work">Work</a></li>
+                            </li>
+                        </ul>
+                    </div></div>
+                    <a class="uk-navbar-item uk-logo" href="#">Logo</a>
+                    <div class="uk-navbar-center-right"><div>
+                        <ul class="uk-navbar-nav">
+                            <li><a href="https://london1857.github.io/lgamache/resume">Resume</a></li>
+                            <li><a href="https://london1857.github.io/lgamache/about">About</a></li>
+                        </ul>
+                    </div></div>
+            
+                </div>
+            </nav>
+            <!---this is the nav on mobile-->
+            <div class="uk-navbar-container uk-hidden@m" uk-navbar>
+                <div class="uk-navbar-left">
+                    <a></a>logo</span>
+                </div>
+                <div class="uk-navbar-right">
+                    <a class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-nav-primary"></a><span class="uk-margin-xsmall uk-position-bottom-right">Menu</span>
+                </div>
+            </div>
+           
+
+            <div id="offcanvas-nav-primary" uk-offcanvas="flip: true" uk-offcanvas="overlay: true">
+                <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+            
+                    <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                        <li><a href="https://london1857.github.io/lgamache/">Home</a></li>
+                        <li><a href="https://london1857.github.io/lgamache/work">Work</a></li>
+                        <li><a href="https://london1857.github.io/lgamache/about">About</a></li>
+                        <li><a href="https://london1857.github.io/lgamache/resume">Resume</a></li>
+                     
+                    </ul>
+            
+                </div>
+            </div>
+            
+            <!---the end of mobile nav-->
+        </div>
+    </div>
+</nav>
+</header>
+<body>
+    <main>
+        <section id="home-hero">
+        <div class="uk-section uk-section-primary">
+            <div class="uk-container uk-container-medium uk-text-center">
+                        <h1>Its really wonderful to be alive</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="process">
+                <div class="uk-section-large uk-section-secondary">
+                    <div class="uk-container uk-container-large uk-container-expand uk-text-center uk-position-relative">
+                        <div>
+                            <div class="myprogress">
+                                <div class="circle">
+                                  <span class="title">Define</span>
+                                </div>
+                                <span class="bar done"></span>
+                                <div class="circle">
+                                  <span class="title">Design</span>
+                                </div>
+                                <span class="bar half"></span>
+                                <div class="circle">
+                                  <span class="title">Develop</span>
+                                </div>
+                                <span class="bar"></span>
+                                <div class="circle">
+                                  <span class="title">Deploy</span>
+                                </div>
+                                <span class="bar"></span>
+                                <div class="circle">
+                                  <span class="title">Support</span>
+                                </div>
+                              </div>
+                        </div>
+                            </div>
+                            </div>
+         
+    </section>
+    <section id="tabs-main">
+        <div class="uk-section-large uk-section-muted">
+            <div class="uk-container uk-container-small  uk-position-relative">
+                <ul class="uk-flex-left" uk-tab>
+                    <li><a href="https://london1857.github.io/my-capstone/work">Work</a></li>
+                    <li><a href="https://london1857.github.io/my-capstone/about">About</a></li>
+                    <li><a href="https://london1857.github.io/my-capstone/contact">Contact</a></li>
+                </ul>
+                
+                <ul class="uk-switcher uk-margin">
+                    <li><div class="uk-child-width-1-2@m" uk-grid>
+                        
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Media Bottom</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                </div>
+                                <div class="uk-card-media-bottom">
+                                    <img src="images/light.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Media Bottom</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                </div>
+                                <div class="uk-card-media-bottom">
+                                    <img src="images/light.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Media Bottom</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                </div>
+                                <div class="uk-card-media-bottom">
+                                    <img src="images/light.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Media Bottom</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                </div>
+                                <div class="uk-card-media-bottom">
+                                    <img src="images/light.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div></li>
+                    <li><div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                        <div class="uk-card-media-left uk-cover-container">
+                            <img src="images/light.jpg" alt="" uk-cover>
+                            <canvas width="600" height="400"></canvas>
+                        </div>
+                        <div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Media Left</h3>
+                                <p>Fascinated by the diverse ecosystem of micro and macro interactions that influence everything in our lives. My introspective nature and growth mindset has helped me to pivot, adapt, and reflect improving my collaboration in teams and developing my skills.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </li>
+                    <li><div class="uk-card uk-card-default uk-card-body">
+                        <h3 class="uk-card-title">Send Me a Message</h3>
+                        <p>I would love to help you with your next project, let's get started!</p>
+                        <br>
+                        <a class="uk-button uk-button-default" href="">Email Me</a>
+                        
+                    </div></li>
+                </ul>
+                    </div>
+                    </div>
+ 
+</section>
+   
+    </main>
+</body>
+
+<footer id="footer">
+    <div class="uk-section-xsmall">
+        <div class="uk-container uk-container-expand uk-text-center uk-position-relative">
+            <div class="uk-column-1-4 uk-inline">
+                <p>Home</p>
+                <p>Work</p>
+                <p>Contact</p>
+                <p>Resume</p>
+            </div>
+                </div>
+                </div>
+                <hr>
+                <div class="uk-section-xsmall">
+                    <div class="uk-container uk-container-expand uk-text-center uk-position-relative">
+                        <div class="uk-column-1-3  uk-inline">
+                            <p> <a href="" class="uk-icon-button" uk-icon="linkedin"></a></p>
+                            <p> <a href="" class="uk-icon-button" uk-icon="github"></a></p>
+                            <p> <a href="" class="uk-icon-button" uk-icon="mail"></a></p>
+                        </div>
+                            </div>
+                            </div>
+            </footer>
+</html>
