@@ -50,10 +50,10 @@ body{
 
     /*Colors*/
   
-    .uk-section-primary{
+   .uk-section,.uk-section-primary{
 background-color: #FEF9F5;
     }
-    .uk-section-secondary{
+   .uk-section,.uk-section-secondary{
         background-color:#fff;
     }
 /*Buttons*/
