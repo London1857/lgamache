@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="123px" height="163px" viewBox="0 0 123 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Who-am-I?" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Letter" transform="translate(-182.000000, -87.000000)">
+            <g id="Group" transform="translate(183.000000, 87.000000)">
+                <ellipse id="Oval" stroke="#979797" fill="#0B0A0A" cx="44" cy="83.5" rx="44" ry="46.5"></ellipse>
+                <text id="L" font-family="Lato-Light, Lato Light" font-size="114" font-weight="normal" fill="#FDF8F8">
+                    <tspan x="25" y="113">L</tspan>
+                </text>
+                <text id="G" font-family="Lato-Light, Lato Light" font-size="64" font-weight="normal" fill="#151313">
+                    <tspan x="64" y="152">G</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
