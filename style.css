@@ -51,10 +51,10 @@ body{
     /*Colors*/
   
 .uk-section-primary{
-    background-color: #202C39 ;
+    background: #202C39 ;
 }
 .uk-section-secondary{
-    background color: #F2D492;
+    background: #F2D492;
 }
 
 /*Buttons*/
