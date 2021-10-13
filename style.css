@@ -56,7 +56,9 @@ body{
 li{
     list-style-type: none;
 }
-
+li.bullet{
+    list-style-type:circle;
+}
 /*Cards*/
 
 
