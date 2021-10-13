@@ -30,7 +30,7 @@ body{
     height: 2px;
     top: -5px;
     border: 0px solid #d5d5da;
-    background:#202C39;
+    background:#F2D492;
     }
     .myprogress .circle .label {
     display: inline-block;
@@ -53,7 +53,7 @@ body{
 .uk-section-primary{
     background: #202C39 ;
 }
-.uk-section-secondary{
+ .uk-section-secondary{
     background: #F2D492;
 }
 
