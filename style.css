@@ -30,7 +30,7 @@ body{
     height: 2px;
     top: -5px;
     border: 0px solid #d5d5da;
-    background:#F2D492;
+    background:#202C39;
     }
     .myprogress .circle .label {
     display: inline-block;
@@ -41,7 +41,7 @@ body{
     font-size: 18px;
     }
     .myprogress .circle .title {
-    color: #F29559;
+    color: #202C39;
     font-size: 18px;
     line-height: 100px;
     }
@@ -55,6 +55,11 @@ body{
 }
  .uk-section-secondary{
     background: #F2D492;
+}
+::selection {
+    background: #202C39;
+    color: #fff;
+    text-shadow: none;
 }
 
 /*Buttons*/
