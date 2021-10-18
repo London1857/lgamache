@@ -79,7 +79,10 @@ li{
 .bullet{
 list-style-type:square;
 }
-
+.uk-container-expand {
+    max-width: none;
+    background: #f8f8f8;
+}
 /*Cards*/
 
 
