@@ -10,41 +10,7 @@
 body{
     margin: o;
 }
-.myprogress {
-    min-width: 100%;
-    margin: 0px auto;
-    text-align: center;
-    }
-    .myprogress .circle,
-    .myprogress .bar {
-    display: inline-block;
-    background: #fff;
-    width: 100px; 
-    height: 100px;
-    border-radius: 80px;
-    border: 1px solid #ffffff;
-    }
-    .myprogress .bar {
-    position: relative;
-    width: 80px;
-    height: 2px;
-    top: -5px;
-    border: 0px solid #ffffff;
-    background:#202C39;
-    }
-    .myprogress .circle .label {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 30px;
-    border-radius: 40px;
-    font-size: 18px;
-    }
-    .myprogress .circle .title {
-    color: #202C39;
-    font-size: 18px;
-    line-height: 100px;
-    }
+
   
 
 
