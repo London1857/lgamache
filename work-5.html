@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
+<link rel="stylesheet" href="style.css">
+    <title>Collette</title>
+  
+</head>
+
+    <header>
+        <nav>
+    <div class="uk-section uk-section-muted uk-section-xsmall">
+        <div class="uk-container uk-container-xsmall">
+            <!---this is the nav on desktop-->
+            <nav class="uk-navbar-container uk-margin uk-visible@m" uk-navbar>
+                <div class="uk-navbar-center">
+            
+                    <div class="uk-navbar-center-left"><div>
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active"><a href="https://london1857.github.io/lgamache">Home</a></li>
+                            <li>
+                                <li><a href="https://london1857.github.io/lgamache/work">Work</a></li>
+                            </li>
+                        </ul>
+                    </div></div>
+                    <img src="img/lg-logo.svg" height="60px" width="60px"alt="">
+                    <div class="uk-navbar-center-right"><div>
+                        <ul class="uk-navbar-nav">
+                            <li><a href="https://london1857.github.io/lgamache/resume">Resume</a></li>
+                            <li><a href="https://london1857.github.io/lgamache/about">About</a></li>
+                        </ul>
+                    </div></div>
+            
+                </div>
+            </nav>
+            <!---this is the nav on mobile-->
+            <div class="uk-navbar-container uk-hidden@m" uk-navbar>
+                <div class="uk-navbar-left">
+                    <img src="img/lg-logo.svg" height="60px" width="60px"alt="">
+                </div>
+                <div class="uk-navbar-right">
+                    <a class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-nav-primary"></a><span class="uk-margin-xsmall uk-position-bottom-right">Menu</span>
+                </div>
+            </div>
+           
+
+            <div id="offcanvas-nav-primary" uk-offcanvas="flip: true" uk-offcanvas="overlay: true">
+                <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+            
+                    <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                        <li><a href="https://london1857.github.io/lgamache/">Home</a></li>
+                        <li><a href="https://london1857.github.io/lgamache/work">Work</a></li>
+                        <li><a href="https://london1857.github.io/lgamache/about">About</a></li>
+                        <li><a href="https://london1857.github.io/lgamache/resume">Resume</a></li>
+                     
+                    </ul>
+            
+                </div>
+            </div>
+            
+            <!---the end of mobile nav-->
+        </div>
+    </div>
+</nav>
+</header>
+<body>
+    <main>
+        <section id="home-hero">
+        <div class="uk-section uk-section-primary">
+            <div class="uk-container uk-container-medium uk-text-center">
+                        <h1>Collette</h1>
+                        <h3>
+                            This family owned company has been opperational since 1918 provides guided touring to all seven continents and serving multiple channels including direct to consumers, groups, and agents.  </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work-overview">
+        <div class="uk-section uk-section-default">
+            <div class="uk-container uk-container-medium uk-text-center">
+                    
+                        <div class="uk-child-width-1-3@m uk-child-width-1-1@s uk-grid-match" uk-grid>
+                            <div>
+                                <div class="uk-card uk-card-muted  uk-card-body uk-dark">
+                                    <h3 class="uk-card-title">Task</h3>
+                                    <p>
+                                        Redesign Collette's website to improve user experience and increase conversions. </p>
+                                    <div>
+                                        <a class="uk-button uk-button-text" href="#research">View Research</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card uk-card-muted  uk-card-body uk-dark">
+                                    <h3 class="uk-card-title">Timeline</h3>
+                                    <p>
+                                     10 months </p>
+                                    <div>
+                                        <a class="uk-button uk-button-text" href="#design">View Design</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card uk-card-muted  uk-card-body uk-dark">
+                                    <h3 class="uk-card-title">My Role</h3>
+                                    <p>Competitive Research, User testing, Data synthesis, Wireframes, Prototypes </p>
+                                    <div>
+                                        <a class="uk-button uk-button-text" href="#delivery">View Delivery</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h1 class="uk-heading-line uk-text-center"><span>Research Process</span></h1>
+    <div id="research" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          
+            <ul class="uk-switcher switcher-container uk-margin">
+        <li><img  src="img/" alt="" uk-cover></li>
+        <li><img  src="img/" alt="" uk-cover></li>
+        <li><img  src="img/" alt="" uk-cover></li>
+            </ul>
+
+            <canvas width="600" height="400"></canvas>
+        </div>
+        <div>
+            <div class="uk-card-body">
+                <ul class="uk-subnav uk-subnav-pill" uk-switcher="connect: .switcher-container">
+                    <li><a href="#">Competitive Research </a></li>
+                    <li><a href="#">Usability Tests</a></li>
+                    <li><a href="#">Data Synthesis</a></li>
+                </ul>
+                
+                
+                
+                <ul class="uk-switcher switcher-container uk-margin">
+                    <li>
+                        <p>To kick off the project, we conducted extensive research to better understand the target audience and their needs. We used a combination of surveys, interviews, and usability testing to gather data.
+                            Based on our research, we identified the following key insights:
+                            Customers often struggle to find the information they need, leading to frustration and ultimately abandonment of the website.
+                            The website's design is outdated and unappealing, making it difficult to engage with the content.
+                            Customers want a more streamlined booking process that is easy to navigate and understand.
+                             My first task was to create a competitive analysis of 14 direct competitors, 10 indirect and 10 e-commerce to get a understanding for the competitive landscape and identify opportunities and weaknesses as well as informing design decisions.
+                        </p></li>
+                    <li>
+                        <p> Once i had shown the competitive analysis to the team and we had discussed the top priorities I conducted unmoderated balanced comparision tests on our competitors and our own website before planning the website redesign.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            After compiling the results from user testing various aspects of interest up for review for the redesign i added those findings in the document and prototyped it to be able to share the information directly to stakeholders.    
+                             </p>
+
+                    </li>
+                </ul>
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <!-------end of research process---------->
+    <h1 class="uk-heading-line uk-text-center"><span>Design Process</span></h1>
+    <div id="design" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+            
+            <ul class=" uk-padding uk-switcher switcher-container1 uk-margin">
+                <li><img  src="img/IMG_7734.JPG" alt="" uk-cover></li>
+                <li><img  src="img/wr-flow-chart.png" alt="" uk-cover></li>
+                <li><img  src="img/Group 7.png" alt="" uk-cover></li>
+                    </ul>
+            <canvas width="600" height="400"></canvas>
+        </div>
+        <div>
+            <div class="uk-card-body">
+                <ul class="uk-subnav uk-subnav-pill" uk-switcher="connect: .switcher-container1">
+                    <li><a href="#">Low-fi Wireframes</a></li>
+                    <li><a href="#">Design System</a></li>
+                    <li><a href="#">Developer Handoff</a></li>
+                </ul>
+             
+                <ul class="uk-switcher switcher-container1 uk-margin">
+                    <li>
+                        <p> Due to the tight timeline i opted for low fidelity wireframes from a template app for xd. This however was not met with glee as the creative department who was in the middle of defining their brand colors and messaging felt it was hindering the creative process to be handed a color by numbers wireframe. Department politics and unclear final decision making power left the project in a state of rework as key personel changes left us relying on ex-employees for deliverables. One Key issue that was a point of contention was finding a WAGAC compliant green button that was bright but accessible to all poor alignment and documentation processies left us with an inflated project timeline and frustrated teammembers.</p></li>
+                    <li>
+                        <p>
+                            While our digital product team waited to get final deliverables to finalize wireframes and handoff to developers I began trying to create a design system in hopes to keep consistency amoung components and align branding guidelines. However trying to keep that updated in addition to all incoming projects and ongoing research proved to be an impossible feat with the timeline. I did not expect the issues that came up and the time it took to 
+                    </li>
+                    <li>
+                        <p>Previously to my tenure at Collette there was no developer handoff tools and ux designers were doing front end coding but due to covid the team was rebuilding and i was the first on the job which meant advocating for zeplin in order to balance my time and others according to the project timeline.
+                        </p>
+
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+    <h1 class="uk-heading-line uk-text-center"><span>Delivery Process</span></h1>
+    <div id="delivery" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+            <ul class="uk-switcher switcher-container2 uk-margin">
+                <li><img  src="img/Group 8 (1).png" alt="" uk-cover></li>
+                <li><img  src="img/MOCKUP_Phones.png" alt="" uk-cover></li>
+                    </ul>      
+                    <canvas width="600" height="400"></canvas>
+        </div>
+        <div>
+            <div class="uk-card-body">
+                <ul class="uk-subnav uk-subnav-pill" uk-switcher="connect: .switcher-container2">
+                    <li><a href="#">Reflection</a></li>
+                    <li><a href="#">Prototype</a></li>
+                </ul>
+                
+                
+                
+                <ul class="uk-switcher switcher-container2 uk-margin">
+                    <li>
+                        <p>Ultimately the website took seven additional months of work and manpower there was alot of confusion in the start of the project with key people leaving and relianse on ex employees to deliver work that extended the timeline. My hope to create a design system failed and will require much more time and rework to reflect all the changes the project has undergone. We are now conducting moderated and unmoderated testing before the launch and are currently compiling that information in order to prioritize features in the second phase of the project which includes several more pages and an overhaul of the booking engine. rower types to group the machines into. This way it was easier to describe and digest on mobile.</p></li>
+                    <li>
+                      
+                            
+                            <a class="uk-button uk-button-default" href="#modal-center" uk-toggle>View Prototype</a>
+
+                            <div id="modal-center" class="uk-flex-top" uk-modal>
+                                <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+                            
+                                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                            
+                                    <iframe width="414" height="896" src="https://xd.adobe.com/embed/cb07ff35-b603-48b8-9187-cee1482345c5-9e54/?fullscreen&hints=off" frameborder="0" allowfullscreen></iframe>
+                            
+                                </div>
+                            </div>                      
+                    </li>
+                  
+                </ul>
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    </main>
+</body>
+
+<footer id="footer">
+    <div class="uk-section-xsmall">
+        <div class="uk-container uk-container-expand uk-text-center uk-position-relative">
+            <div class="uk-column-1-4 uk-inline">
+                <li><a href="https://london1857.github.io/lgamache/">Home</a></li>
+                <li><a href="https://london1857.github.io/lgamache/work">Work</a></li>
+                <li><a href="https://london1857.github.io/lgamache/about">About</a></li>
+                <li><a href="https://london1857.github.io/lgamache/resume">Resume</a></li>
+            </div>
+                </div>
+                </div>
+                <hr>
+                <div class="uk-section-xsmall">
+                    <div class="uk-container uk-container-expand uk-text-center uk-position-relative">
+                        <div class="uk-column-1-3  uk-inline">
+                            <p> <a href="https://www.linkedin.com/in/lydiagamache/" class="uk-icon-button" uk-icon="linkedin"></a></p>
+                            <p> <a href="https://london1857.github.io/" class="uk-icon-button" uk-icon="github"></a></p>
+                            <p> <a href="mailto:lydiagamacheuxui@gmail.com" class="uk-icon-button" uk-icon="mail"></a></p>
+                        </div>
+                            </div>
+                            </div>
+            </footer>
+</html>
