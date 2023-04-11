@@ -22,6 +22,10 @@ body{
  .uk-section-secondary{
     background: #F2D492;
 }
+.uk-container-expand {
+    max-width: none;
+    background: #ffffff;
+}
 
 .uk-card-secondary{
     background: #F2D492;
