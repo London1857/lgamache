@@ -24,7 +24,7 @@ body{
 }
 .uk-container-expand {
     max-width: none;
-    background: !important none;
+    background:  none;
 }
 
 .uk-card-secondary{
